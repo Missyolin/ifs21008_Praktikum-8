@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inboxes"
+            android:icon="@drawable/all_inbox"
+            android:title="All Inboxes" />
+        <item
+            android:id="@+id/line"
+            android:icon="@drawable/line"
+            android:title="" />
+        <item
+            android:id="@+id/nav_primary"
+            android:icon="@drawable/email"
+            android:title="Primary" />
+        <item
+            android:id="@+id/nav_social"
+            android:icon="@drawable/social"
+            android:title="Social" />
+        <item
+            android:id="@+id/nav_promotions"
+            android:icon="@drawable/promotion"
+            android:title="Promotions" />
+        <item
+            android:id="@+id/line1"
+            android:icon="@drawable/line"
+            android:title="" />
+        <item
+            android:id="@+id/nav_starred"
+            android:icon="@drawable/starred"
+            android:title="Starred" />
+        <item
+            android:id="@+id/nav_sent"
+            android:icon="@drawable/sent"
+            android:title="Sent" />
+        <item
+            android:id="@+id/nav_trash"
+            android:icon="@drawable/trash"
+            android:title="Trash" />
+        <item
+            android:id="@+id/line2"
+            android:icon="@drawable/line"
+            android:title="" />
+        <item
+            android:id="@+id/nav_new"
+            android:icon="@drawable/create"
+            android:title="Create New" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/line3"
+            android:icon="@drawable/line"
+            android:title="" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/help"
+            android:title="Help" />
+    </group>
+</menu>
